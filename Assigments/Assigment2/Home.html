@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-secondary" style="height: 90px">
+      <div class="container-fluid">
+        <a class="navbar-brand h1 text-white" style="font-size: 33px" href="#"
+          >Movie Mania</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px; margin-left: 350px"
+          >
+            <li class="nav-item p-2">
+              <a class="nav-link text-white" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link text-white" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="btn btn-success" href="#">Sign In</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="btn btn-success" href="#">Log In</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div style="position: relative;">
+      <div>
+        <img src="bg.jpg" alt="No-Image" width="100%" height="650px" style="object-fit: cover;">
+      </div>
+      <div style="position:absolute;top:30%;left:50%;">
+      <h1 class="text-white m-3" style="font-size: 50px;">Welcome to Movie Mania</h1>
+      <button class="btn btn-success p-3" style="margin-left:200px;">Click to Watch</button>
+      </div>
+    </div><br>
+    <h2 class="ms-2">Latest Releses :</h2>
+    <br />
+    <div class="d-flex justify-content-around">
+      <div class="card ms-4" style="width: 18rem; height: auto">
+        <img
+          src="Kantara.jpg"
+          class="card-img-top"
+          alt="No-Image"
+          height="410px"
+          style="object-fit: cover"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Kantara Chapter-1</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Watch Movie</a>
+        </div>
+      </div>
+
+      <div class="card ms-5" style="width: 18rem">
+        <img
+          src="dude-2025.jpg"
+          class="card-img-top"
+          alt="No-Image"
+          height="410px"
+          style="object-fit: cover"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Dude</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Watch Movie</a>
+        </div>
+      </div>
+
+      <div class="card ms-5" style="width: 18rem">
+        <img
+          src="Madharasi.avif"
+          class="card-img-top"
+          alt="No-Image"
+          height="410px"
+          style="object-fit: cover"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Madharasi</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Watch Movie</a>
+        </div>
+      </div>
+
+      <div class="card ms-5" style="width: 18rem">
+        <img
+          src="Aromaley.avif"
+          class="card-img-top"
+          alt="No-Image"
+          height="410px"
+          style="object-fit: cover"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Aaromaley</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Watch Movie</a>
+        </div>
+      </div>
+    </div>
+    <br /><br>
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <p class="col-md-4 mb-0 text-body-secondary">© 2025 Company,Movie Mania Inc</p>
+        <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          aria-label="Bootstrap"
+        >
+        </a>
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Contact Us</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+</html>
